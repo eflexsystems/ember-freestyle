@@ -4,16 +4,17 @@
 [![npm version](https://badge.fury.io/js/ember-freestyle.svg)](https://badge.fury.io/js/ember-freestyle)
 ![Download count all time](https://img.shields.io/npm/dt/ember-freestyle.svg)
 [![Ember Observer Score](http://emberobserver.com/badges/ember-freestyle.svg)](http://emberobserver.com/addons/ember-freestyle)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 Ember Freestyle is an Ember addon that allows you to quickly create a component explorer for your Ember app.
 
 ## Documentation
 
-This README provides a lightweight overview of Ember Freestyle to get you going. More complete documentation can be found at http://ember-freestyle.com/
+This README provides a lightweight overview of Ember Freestyle to get you going. More complete documentation can be found at https://chrislopresto.github.io/ember-freestyle
 
 ## Live Demo
 
-To see Ember Freestyle in action, visit http://ember-freestyle.com/#/acceptance
+To see Ember Freestyle in action, visit [https://chrislopresto.github.io/ember-freestyle/#/acceptance](https://chrislopresto.github.io/ember-freestyle/#/acceptance)
 
 ## Compatibility & support
 
@@ -26,7 +27,8 @@ To see Ember Freestyle in action, visit http://ember-freestyle.com/#/acceptance
 
 Ember Freestyle support is only provided for the 2 latest Ember versions
 
-## Installation
+Installation
+------------------------------------------------------------------------------
 
 This installation process is opinionated in order to get you going quickly.
 
@@ -93,21 +95,19 @@ var app = new EmberAddon(defaults, {
 ```
 ## Running
 
+* `npm run lint:js`
+* `npm run lint:js -- --fix`
+
+### Running tests
+
+* `ember test` – Runs the test suite on the current Ember version
+* `ember test --server` – Runs the test suite in "watch mode"
+* `ember try:each` – Runs the test suite against multiple Ember versions
+
+### Running the dummy application
+
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
+* Visit the dummy application at [http://localhost:4200](http://localhost:4200).
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
-## Releasing
-
-If you are a project maintainer, run `./script/release [major|minor|patch]` to release a new version of this addon. We use  [https://github.com/skywinder/github-changelog-generator](https://github.com/skywinder/github-changelog-generator) under the hood to generate the changelog.
