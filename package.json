@@ -1,6 +1,6 @@
 {
   "name": "@eflexsystems/ember-freestyle",
-  "version": "0.11.9",
+  "version": "0.11.9-1",
   "description": "Create a living styleguide for your Ember app.",
   "repository": "https://github.com/eflexsystems/ember-freestyle.git",
   "license": "MIT",
