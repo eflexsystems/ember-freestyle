@@ -1,7 +1,10 @@
 {
   "name": "@eflexsystems/ember-freestyle",
-  "version": "0.11.9-1",
+  "version": "0.11.9-2",
   "description": "Create a living styleguide for your Ember app.",
+  "keywords": [
+    "ember-addon"
+  ],
   "repository": "https://github.com/eflexsystems/ember-freestyle.git",
   "license": "MIT",
   "author": "Chris LoPresto",
