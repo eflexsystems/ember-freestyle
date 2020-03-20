@@ -1,14 +1,10 @@
 {
-  "name": "eflex-ember-freestyle",
+  "name": "@eflexsystems/ember-freestyle",
   "version": "0.11.9",
   "description": "Create a living styleguide for your Ember app.",
-  "keywords": [
-    "ember-addon"
-  ],
   "repository": "https://github.com/eflexsystems/ember-freestyle.git",
   "license": "MIT",
   "author": "Chris LoPresto",
-
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -65,12 +61,5 @@
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
-  },
-  "ember-addon": {
-    "configPath": "tests/dummy/config",
-    "demoURL": "https://chrislopresto.github.io/ember-freestyle/",
-    "versionCompatibility": {
-      "ember": ">= 2.4.0"
-    }
   }
 }
